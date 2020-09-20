@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <title>Login Lista de Tareas</title>
+</head>
+<body>
+    <div class="contenedor-form">
+        <div class="toggle">
+            <span>Crear cuenta</span>
+        </div>
+
+        <div class="formulario">
+            <h2>Iniciar sesion</h2>
+            <form action="#" >
+                <input type="text" placeholder="Usuario" required>
+                <input type="password" placeholder="Contraseña" required>
+                <input type="submit" value="Iniciar sesion" onclick="alert('No tiene una cuenta, cree una')">
+            </form>
+        </div>
+
+        <div class="formulario">
+            <h2>Crea tu cuenta</h2>
+            <form action="#" id="formTask">
+                <input id="usuario" type="text" placeholder="Usuario" required>
+                <input id="contraseña" type="password" placeholder="Contraseña" required>
+                <input id="correo" type="email" placeholder="Correo Electronico" required>
+                <input id="telefono" type="text" placeholder="Telefono" required>
+                <input id="registrarse" type="submit"  value="Registrarse"  >
+            </form>
+        </div>
+        <div class="reset-password">
+            <a href="#">Olvide mi Contraseña</a>
+        </div>
+    </div>
+
+
+
+    <script src="assets/js/jquery-3.5.1.min.js"></script>
+    <script src="assets/js/index.js"></script>
+</body>
+</html>
