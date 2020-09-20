@@ -30,7 +30,7 @@ if (localStorage.getItem('registros') === null) {
 
 
 }else{
-    location.href = '/assets/pages/listaDeTareas.html';
+    window.location.assign('listaDeTareas.html')
 }
 
 e.preventDefault();
